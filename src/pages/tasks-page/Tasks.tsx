@@ -163,6 +163,7 @@ export const TasksPage = () => {
                     dragLeaveHandler,
                     board,
                   }}
+                  key={board}
                   title={getStatusText(board)}
                   tasks={filterTasks
                     .filter((task) => task.status === board)

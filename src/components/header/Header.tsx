@@ -29,7 +29,7 @@ export const Header = ({ handleNewTask }: IProps) => {
   const handleFilterStatusChange = (e: any) => {
     dispatch.tasks.filterByStatus(+e.target.value);
   };
-  console.log("header render");
+
   const view = useSelector((state: RootState) => state.view);
   const sort = useSelector((state: RootState) => state.tasks.sort);
   const user = useSelector((state: RootState) => state.user);
@@ -76,7 +76,9 @@ export const Header = ({ handleNewTask }: IProps) => {
             >
               <option value={0}>Не выбрано</option>
               {[EPriority.High, EPriority.Low, EPriority.Medium].map((item) => (
-                <option value={item}>{getPrioritytext(item)}</option>
+                <option key={item} value={item}>
+                  {getPrioritytext(item)}
+                </option>
               ))}
             </select>
           </div>
@@ -91,7 +93,9 @@ export const Header = ({ handleNewTask }: IProps) => {
             >
               <option value={0}>Не выбрано</option>
               {[EStatus.Plan, EStatus.Progress, EStatus.Done].map((item) => (
-                <option value={item}>{getStatusText(item)}</option>
+                <option key={item} value={item}>
+                  {getStatusText(item)}
+                </option>
               ))}
             </select>
           </div>

@@ -60,7 +60,9 @@ export const TaskModal = ({ toggleIsOpenTask, task }: IProps) => {
                 {[EStatus.Plan, EStatus.Progress, EStatus.Done]
                   .filter((item) => item !== task.status)
                   .map((item) => (
-                    <option value={item}>{getStatusText(item)}</option>
+                    <option key={item} value={item}>
+                      {getStatusText(item)}
+                    </option>
                   ))}
               </select>
             </div>
@@ -78,7 +80,9 @@ export const TaskModal = ({ toggleIsOpenTask, task }: IProps) => {
                 {Array.from(Array(10).keys())
                   .filter((item) => item !== task.planDuration)
                   .map((item) => (
-                    <option value={item}>{item}</option>
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
                   ))}
               </select>
             </div>
@@ -96,7 +100,9 @@ export const TaskModal = ({ toggleIsOpenTask, task }: IProps) => {
                 {Array.from(Array(10).keys())
                   .filter((item) => item !== task.actualDuration)
                   .map((item) => (
-                    <option value={item}>{item}</option>
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
                   ))}
               </select>
             </div>

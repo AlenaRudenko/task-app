@@ -73,7 +73,9 @@ export const NewTaskModal = ({ handleNewTask }: IProps) => {
               {[EStatus.Plan, EStatus.Progress, EStatus.Done]
                 .filter((item) => item !== task.status)
                 .map((item) => (
-                  <option value={item}>{getStatusText(item)}</option>
+                  <option key={item} value={item}>
+                    {getStatusText(item)}
+                  </option>
                 ))}
             </select>
           </div>
@@ -90,7 +92,9 @@ export const NewTaskModal = ({ handleNewTask }: IProps) => {
               {[EPriority.Low, EPriority.Medium, EPriority.High]
                 .filter((item) => item !== task.priority)
                 .map((item) => (
-                  <option value={item}>{getPrioritytext(item)}</option>
+                  <option key={item} value={item}>
+                    {getPrioritytext(item)}
+                  </option>
                 ))}
             </select>
           </div>
@@ -104,7 +108,9 @@ export const NewTaskModal = ({ handleNewTask }: IProps) => {
               onChange={(e) => handlePlanDuration(e)}
             >
               {Array.from(Array(10).keys()).map((item) => (
-                <option value={item}>{item}</option>
+                <option key={item} value={item}>
+                  {item}
+                </option>
               ))}
             </select>
           </div>
@@ -117,7 +123,9 @@ export const NewTaskModal = ({ handleNewTask }: IProps) => {
               onChange={(e) => handleActualDuration(e)}
             >
               {Array.from(Array(10).keys()).map((item) => (
-                <option value={item}>{item}</option>
+                <option key={item} value={item}>
+                  {item}
+                </option>
               ))}
             </select>
           </div>
