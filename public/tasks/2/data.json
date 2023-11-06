@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "Разработка новой функциональности",
+    "description": "Разработать и реализовать новую функциональность для продукта",
+    "planDuration": 2,
+    "actualDuration": 1,
+    "startsAt": "2021-10-10",
+    "priority": 2,
+    "status": 1
+  },
+  {
+    "id": "2",
+    "title": "Улучшение производительности",
+    "description": "Оптимизировать код и улучшить производительность продукта",
+    "planDuration": 3,
+    "actualDuration": 2,
+    "startsAt": "2021-10-11",
+    "priority": 3,
+    "status": 1
+  },
+  {
+    "id": "3",
+    "title": "Обновление интерфейса",
+    "description": "Создание нового дизайна и обновление интерфейса продукта",
+    "planDuration": 1,
+    "actualDuration": 1,
+    "startsAt": "2021-10-12",
+    "priority": 1,
+    "status": 3
+  },
+  {
+    "id": "4",
+    "title": "Исправление ошибок",
+    "description": "Поиск и исправление ошибок в коде продукта",
+    "planDuration": 2,
+    "actualDuration": 1,
+    "startsAt": "2021-10-13",
+    "priority": 2,
+    "status": 2
+  },
+  {
+    "id": "5",
+    "title": "Оптимизация базы данных",
+    "description": "Анализ и оптимизация работы базы данных продукта",
+    "planDuration": 1,
+    "actualDuration": 1,
+    "startsAt": "2021-10-14",
+    "priority": 1,
+    "status": 1
+  },
+  {
+    "id": "6",
+    "title": "Разработка API",
+    "description": "Создание и разработка API для взаимодействия с другими системами",
+    "planDuration": 3,
+    "actualDuration": 2,
+    "startsAt": "2021-10-15",
+    "priority": 3,
+    "status": 3
+  },
+  {
+    "id": "7",
+    "title": "Тестирование функциональности",
+    "description": "Тестирование новой функциональности и обнаружение возможных ошибок",
+    "planDuration": 2,
+    "actualDuration": 1,
+    "startsAt": "2021-10-16",
+    "priority": 2,
+    "status": 2
+  },
+  {
+    "id": "8",
+    "title": "Улучшение пользовательского опыта",
+    "description": "Работа над улучшением пользовательского опыта и удобством использования продукта",
+    "planDuration": 1,
+    "actualDuration": 1,
+    "startsAt": "2021-10-17",
+    "priority": 1,
+    "status": 1
+  },
+  {
+    "id": "9",
+    "title": "Рефакторинг кода",
+    "description": "Проведение рефакторинга кода для повышения качества и поддерживаемости продукта",
+    "planDuration": 3,
+    "actualDuration": 2,
+    "startsAt": "2021-10-18",
+    "priority": 3,
+    "status": 3
+  },
+  {
+    "id": "10",
+    "title": "Добавление новых модулей",
+    "description": "Разработка и добавление новых модулей в продукт для расширения его функциональности",
+    "planDuration": 2,
+    "actualDuration": 1,
+    "startsAt": "2021-10-19",
+    "priority": 2,
+    "status": 2
+  }
+]

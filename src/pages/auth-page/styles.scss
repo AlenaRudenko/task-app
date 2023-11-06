@@ -1,0 +1,30 @@
+.authPage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.authPage__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.authPage__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.authPage__message {
+  width: 200px;
+  height: 50px;
+  padding: 10px 0px;
+  span {
+    font-size: 15px;
+
+    color: white;
+  }
+}

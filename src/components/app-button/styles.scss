@@ -1,0 +1,26 @@
+.appButton__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.appButton__button {
+  border-style: none;
+  outline-style: none;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 8px 12px;
+  width: 80%;
+  height: 35px;
+  font-size: 12px;
+  border-radius: 6px;
+  justify-content: center;
+  &-disabled {
+    cursor: not-allowed;
+    background-color: grey;
+  }
+}

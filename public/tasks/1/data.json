@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "Develop login functionality",
+    "description": "Implement the login feature to allow users to securely access the system.",
+    "planDuration": 5,
+    "actualDuration": 6,
+    "startsAt": "2022-01-01",
+    "priority": 1,
+    "status": 1
+  },
+  {
+    "id": "2",
+    "title": "Design database architecture",
+    "description": "Create an efficient and scalable database structure to store and retrieve data.",
+    "planDuration": 3,
+    "actualDuration": 4,
+    "startsAt": "2022-01-02",
+    "priority": 2,
+    "status": 2
+  },
+  {
+    "id": "3",
+    "title": "Optimize website performance",
+    "description": "Improve the loading speed and responsiveness of the website for better user experience.",
+    "planDuration": 2,
+    "actualDuration": 1,
+    "startsAt": "2022-01-03",
+    "priority": 3,
+    "status": 3
+  },
+  {
+    "id": "4",
+    "title": "Implement user authentication",
+    "description": "Add authentication functionality to ensure secure access and protect user data.",
+    "planDuration": 6,
+    "actualDuration": 5,
+    "startsAt": "2022-01-04",
+    "priority": 1,
+    "status": 1
+  },
+  {
+    "id": "5",
+    "title": "Develop responsive UI",
+    "description": "Create a user-friendly interface that adjusts to different screen sizes and devices.",
+    "planDuration": 4,
+    "actualDuration": 4,
+    "startsAt": "2022-01-05",
+    "priority": 2,
+    "status": 2
+  },
+  {
+    "id": "6",
+    "title": "Integrate third-party APIs",
+    "description": "Connect the system to external APIs for additional functionality and data sources.",
+    "planDuration": 3,
+    "actualDuration": 2,
+    "startsAt": "2022-01-06",
+    "priority": 3,
+    "status": 3
+  },
+  {
+    "id": "7",
+    "title": "Improve search functionality",
+    "description": "Enhance the search feature to provide accurate and relevant results to users.",
+    "planDuration": 4,
+    "actualDuration": 5,
+    "startsAt": "2022-01-07",
+    "priority": 1,
+    "status": 1
+  },
+  {
+    "id": "8",
+    "title": "Create user roles and permissions",
+    "description": "Implement a role-based access control system to manage user permissions and restrictions.",
+    "planDuration": 2,
+    "actualDuration": 3,
+    "startsAt": "2022-01-08",
+    "priority": 2,
+    "status": 2
+  },
+  {
+    "id": "9",
+    "title": "Implement real-time updates",
+    "description": "Enable live updates and notifications to keep users informed about relevant changes.",
+    "planDuration": 3,
+    "actualDuration": 2,
+    "startsAt": "2022-01-09",
+    "priority": 3,
+    "status": 3
+  },
+  {
+    "id": "10",
+    "title": "Test and debug application",
+    "description": "Perform thorough testing and debugging to ensure the system functions correctly and reliably.",
+    "planDuration": 5,
+    "actualDuration": 6,
+    "startsAt": "2022-01-10",
+    "priority": 1,
+    "status": 1
+  }
+]

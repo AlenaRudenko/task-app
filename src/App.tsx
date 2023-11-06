@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./styles.scss";
+import { WithRouter } from "./pages/auth-page/AuthPage";
+import { TasksPage } from "./pages/tasks-page/Tasks";
+import { Route, Routes } from "react-router-dom";
+import { MainPage } from "./pages/main-page/MainPage";
+import { WrappedComponent } from "./pages/wrapped-component/NewComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Routes>
+        <Route key={"/"} path={"/"} element={<MainPage />}>
+          <Route key={"/auth"} path={"/auth"} element={<WithRouter />} />
+          <Route
+            key={"/tasks/*"}
+            path={"/tasks/*"}
+            element={
+              <WrappedComponent>
+                <TasksPage />
+              </WrappedComponent>
+            }
+          />
+        </Route>
+      </Routes>
     </div>
   );
 }

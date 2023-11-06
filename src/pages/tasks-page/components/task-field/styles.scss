@@ -1,0 +1,22 @@
+.taskField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+  .description {
+    flex: 1;
+    justify-content: flex-start;
+    padding-right: 5px;
+    display: flex;
+    span {
+      font-weight: 700;
+    }
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    flex: 5;
+    text-align: start;
+  }
+}

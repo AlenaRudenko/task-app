@@ -1,0 +1,54 @@
+.taskModal__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(21, 27, 31, 0.81);
+  transition: 0.2s;
+  z-index: 1000;
+  &--backdrop {
+    width: 100%;
+    opacity: 1;
+  }
+  &--hidden {
+    opacity: 0;
+    width: 0;
+  }
+}
+.taskModal__content {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: white;
+  align-items: flex-start;
+  width: 500px;
+  z-index: 14;
+  border-radius: 5px;
+  padding: 10px;
+  height: 400px;
+}
+.taskModal__closeButton {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.taskModal__text {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: white;
+  align-items: flex-start;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+  text-align: start;
+}
